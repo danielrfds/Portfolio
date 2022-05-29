@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Médias</title>
+    <meta name="Description" content="Simulador de Médias para Escola">
+</head>
+<body>
+    <h1>Saiba se você está aprovado ou reprovado</h1>
+    <p>Insira sua média: <input type="number" name="médiatxt" id="médiatxt"> <input type="button" value="Verificar" onclick="calcular()"></p>
+    <p><div id="res"></div></p>
+
+    <script>
+        function calcular(){ 
+            var médiatx = document.querySelector('input#médiatxt')
+            var média = Number(médiatx.value)
+            if(média >= 6){
+                res.innerHTML = `Sua média foi ${média}, então você está <strong>APROVADO.</strong>`
+            }else{
+                res.innerHTML = `Sua média foi ${média}, então você está <strong>REPROVADO.</strong>`
+            }
+
+        }
+    </script>
+</body>
+</html>

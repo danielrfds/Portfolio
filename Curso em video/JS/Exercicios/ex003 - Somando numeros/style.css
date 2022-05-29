@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body{
+    background-color: #6efcfc;
+}
+main{
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 30px rgb(44, 42, 42);
+}
+div#resultado{
+    margin-top: 5px;
+}
+
+div#botaoSoma{
+    margin-top: 5px;
+}

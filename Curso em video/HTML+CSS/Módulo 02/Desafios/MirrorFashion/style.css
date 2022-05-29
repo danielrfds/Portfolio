@@ -1,0 +1,60 @@
+@charset "UTF-8";
+*{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+h1{
+    background-color: #c9c9c9;
+    padding: 7px;
+}
+
+h2{
+    border-bottom: 2px solid #c9c9c9;
+    margin-top: 30px;
+}
+
+p{
+font-size: 20px;
+text-indent: 15px;
+padding: 0 45px;
+}
+
+#CentroDeDistribuicao{
+   background-color: #c9c9c9;
+   border: 1px solid #ccc;
+   width: 600px;
+   height: 400px;
+   padding: 8px;
+   text-align: center;
+   margin: auto;
+}
+
+#CentroDeDistribuicao figcaption{
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#FamiliaPelho img{
+    float: right;
+    margin: 0 0 45px;
+    background-color: #c9c9c9;
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    padding: 10px;
+   margin-left: 20px;
+}
+
+#FamiliaPelho figcaption{
+    font-size: 15px;
+    padding: 5px;
+    float: right;
+
+
+}

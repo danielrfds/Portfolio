@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos do DOM</title>
+    <style>
+        div#area{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #23ebd0;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+
+        }
+    </style>
+
+</head>
+<body>
+    <div id="area"> 
+        Interaja... 
+    </div>
+
+    <script>
+// Selecionando o elemento e ligando ele as funções desejadas
+        var area = window.document.getElementById('area')
+        area.addEventListener('click', Clicar)
+        area.addEventListener('mouseenter', Entrar)
+        area.addEventListener('mouseout', Saiu)
+
+// Quando o usuário clicar no botão, o texto mudará para 'clicou !'
+        function Clicar(){ 
+            area.innerText = 'Clicou !'
+            area.style.backgroundColor = 'red'
+        }
+// Quando o usuário clicar no botão, o texto mudará para 'entrou !'
+        function Entrar(){
+            area.innerText = 'Entrou !'
+            area.style.backgroundColor = 'blue'
+        }
+// Quando o usuário clicar no botão, o texto mudará para 'saiu !'
+        function Saiu(){
+            area.innerText = 'Saiu !'
+            area.style.backgroundColor = '#23ebd0'
+        }
+    </script>
+</body>
+</html>
