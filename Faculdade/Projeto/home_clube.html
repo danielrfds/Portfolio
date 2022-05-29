@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Homepage do Clube</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link href="styles\home_clube.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo_green.png" alt="clube do Livro" width="150" height="auto">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/src/pages/blogs.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/src/pages/clubs.html">Clubes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/src/pages/books.html">Livros</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Qual livro?" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+          <div class="nav-item dropdown d-flex">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-circle fs-4"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Meu Perfil</a></li>
+              <li><a class="dropdown-item" href="#">Pedidos</a></li>
+              <li><a class="dropdown-item" href="#">Favoritos</a></li>
+              <li><a class="dropdown-item" href="#">Adicionar Livro</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Sair da Conta</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class=conteudo>
+
+    <section>
+      <div class="capa">
+        <img src="http://source.unsplash.com/random/1310x80" alt="capa" width=100% height="100px">
+      </div>
+
+      <div class="icone_nome">
+        <div class="fotoClube">
+          <img src="http://source.unsplash.com/random/" alt="avatar" class="iconeClube">
+        </div>
+        <h1>
+          Clube da Fantasia
+        </h1>
+        <button type="button" class="btn btn-light">Join</button>
+      </div>
+    </section>
+
+    <div class="container2">
+      <div class="row">
+        <div class="col-10">
+          <section>
+
+            <div class="criarPosts">
+              <div class="fotoPerfil">
+                <img src="http://source.unsplash.com/random/" alt="avatar" class="iconePerfil">
+              </div>
+              <div class="input-group input-group-sm mb-3">
+                <input type="text" class="form-control" placeholder="Criar post...">
+              </div>
+              <a href="">
+                <img
+                  src="assets\images\kisspng-clip-art-scalable-vector-graphics-computer-icons-i-upload-svg-png-icon-free-download-234957-onli-5b67cc36c3bb87.0081373315335291428017.png"
+                  alt="" width="25px" height="25px">
+              </a>
+            </div>
+
+            <div class="posts">
+              <div class="postagem">
+                <div class="miniatura_texto">
+                  <div class="titulo_botoes">
+                    <img src="https://cdn-icons-png.flaticon.com/512/16/16410.png" alt="" class="miniatura"
+                      width="100px" height="100px">
+                    <a href="#">
+                      Guia: como começar a ler Harry Potter <br>
+                    </a>
+                    <div class="botoes">
+                      <button class="botao">Curtir</button>
+                      <button class="botao">Comentários</button>
+                      <button class="botao">Salvar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="postagem">
+                <div class="miniatura_texto">
+                  <div class="titulo_botoes">
+                    <img src="https://cdn-icons-png.flaticon.com/512/16/16410.png" alt="" class="miniatura"
+                      width="100px" height="100px">
+                    <a href="#">
+                      Resenha: Instrumentos Mortais - Cidade dos Ossos <br>
+                    </a>
+                    <div class="botoes">
+                      <button class="botao">Curtir</button>
+                      <button class="botao">Comentários</button>
+                      <button class="botao">Salvar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="postagem">
+                <div class="miniatura_texto">
+                  <div class="titulo_botoes">
+                    <img src="https://cdn-icons-png.flaticon.com/512/16/16410.png" alt="" class="miniatura"
+                      width="100px" height="100px">
+                    <a href="#">
+                      Rank melhores livros de Percy Jackson <br>
+                    </a>
+                    <div class="botoes">
+                      <button class="botao">Curtir</button>
+                      <button class="botao">Comentários</button>
+                      <button class="botao">Salvar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="postagem">
+                <div class="miniatura_texto">
+                  <div class="titulo_botoes">
+                    <img src="https://cdn-icons-png.flaticon.com/512/16/16410.png" alt="" class="miniatura"
+                      width="100px" height="100px">
+                    <a href="#">
+                      Estou començando a ler O Hobbit e ...<br>
+                    </a>
+                    <div class="botoes">
+                      <button class="botao">Curtir</button>
+                      <button class="botao">Comentários</button>
+                      <button class="botao">Salvar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="col-2">
+          <section class="lateral">
+            <div>
+              <h2>Sobre o clube</h2>
+              <p>Este clube é direcionado para os amantes de fantasia. Lar daqueles que conseguem viver em vários mundos
+                diferentes.</p>
+            </div>
+
+            <div>
+              <div class="membros">
+                <h2>Membros - </h2>
+                  <h3>120K</h3>
+                  <h4>(50)</h4>
+              </div>
+              <img src="https://cdn-icons-png.flaticon.com/512/16/16410.png" alt=""
+              width="50px" height="50px">
+              <img src="https://cdn-icons-png.flaticon.com/512/16/16410.png" alt="" 
+              width="50px" height="50px">
+              <img src="https://cdn-icons-png.flaticon.com/512/16/16410.png" alt="" 
+              width="50px" height="50px">
+                <img src="https://cdn-icons-png.flaticon.com/512/16/16410.png" alt="" 
+                width="50px" height="50px"> <br>
+              <a href="">Ver todos -></a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="text-white">
+    <div class="container text-md-left">
+      <div class="row">
+        <div class="col-7 mx-auto mt-3">
+          <div class="row text-left">
+            <div class="col">
+              <img src="assets/images/logo.png" alt="clube do Livro" width="100" height="auto">
+            </div>
+            <div class="col-9">
+              <p>A sua plataforma que de compartilhamento de livros!</p>
+            </div>
+          </div>
+          <br />
+          <div class="row text-center">
+            <div class="col">
+              <a href="#" style="text-decoration: none;">
+                <strong class="text-success">Termo de Uso</strong>
+              </a>
+            </div>
+            <div class="col">
+              <a href="#" style="text-decoration: none;">
+                <strong class="text-success">Politica de Privacidade</strong>
+              </a>
+            </div>
+            <div class="col">
+              <a href="#" style="text-decoration: none;">
+                <strong class="text-success">Sobre Nós</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col mx-auto mt-3 text-center">
+          <div class="row">
+            <div class="col">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                      class="fab fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                      class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                      class="fab fa-google-plus"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                      class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                      class="fab fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row text-left">
+            <p class="text-light support-container">
+              <i class="fas fa-envelope mr-3"></i> suporte@clubedolivro.com
+              <br />
+              <i class="fas fa-phone mr-3"></i> (31) 99999-9999
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="mb-4">
+      <div class="row align-items-center">
+        <div class="col">
+          <p>Desenvolvido por:
+            <a href="#" style="text-decoration: none;">
+              <strong class="text-success">Clube do Livro &copy; 2022</strong>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

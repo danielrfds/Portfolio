@@ -1,0 +1,14 @@
+header{
+    background-color: aqua;
+}
+
+.container{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row wrap;
+}
+
+.box-noticia{
+    width: 30%;
+    min-width: 300px;
+}
